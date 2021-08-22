@@ -1,6 +1,6 @@
-# My Node App
+# websocket-chat-node
 
-Describe your app here.
+A simple WebSocket echo server using Node and `ws`.
 
 ## Installation
 
@@ -8,16 +8,17 @@ Describe your app here.
 $ yarn install
 ```
 
-Dependencies are locked with `yarn.lock`; please use `yarn` rather than `npm` for installing.
-
 ## Running
 
 ```
 $ yarn start
 ```
 
-## Test
+Access `ws://localhost:3000`
 
-```
-$ yarn test
+## Testing
+
+```bash
+$ npm install -g wscat
+$ wscat -c ws://localhost:3000
 ```
