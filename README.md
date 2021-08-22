@@ -1,4 +1,4 @@
-# websocket-chat-node
+# websocket-echo-node
 
 A simple WebSocket echo server using Node and `ws`.
 
